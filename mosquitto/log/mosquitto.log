@@ -11161,3 +11161,83 @@
 1781384147: Sending PINGRESP to Telegraf-Consumer-fB3aS
 1781384170: mosquitto version 2.1.2 terminating
 1781384170: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1781434686: mosquitto version 2.1.2 starting
+1781434686: Config loaded from /mosquitto/config/mosquitto.conf.
+1781434686: Bridge support available.
+1781434686: Persistence support available.
+1781434686: TLS support available.
+1781434686: TLS-PSK support available.
+1781434686: Websockets support available.
+1781434686: Opening ipv4 listen socket on port 1883.
+1781434686: mosquitto version 2.1.2 running
+1781434688: New connection from 172.18.0.3:60032 on port 1883.
+1781434688: New client connected from 172.18.0.3:60032 as Telegraf-Consumer-SVQ7J (p4, c1, k60).
+1781434688: No will message specified.
+1781434688: Sending CONNACK to Telegraf-Consumer-SVQ7J (0, 0)
+1781434688: Received SUBSCRIBE from Telegraf-Consumer-SVQ7J
+1781434688: 	senzor/sht41 (QoS 0)
+1781434688: Telegraf-Consumer-SVQ7J 0 senzor/sht41
+1781434688: 	senzor/scd40 (QoS 0)
+1781434688: Telegraf-Consumer-SVQ7J 0 senzor/scd40
+1781434688: Sending SUBACK to Telegraf-Consumer-SVQ7J
+1781434703: New connection from 172.18.0.1:54298 on port 1883.
+1781434703: New client connected from 172.18.0.1:54298 as esp32-senzor-001 (p4, c1, k15).
+1781434703: No will message specified.
+1781434703: Sending CONNACK to esp32-senzor-001 (0, 0)
+1781434703: Received PUBLISH from esp32-senzor-001 (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781434703: Sending PUBLISH to Telegraf-Consumer-SVQ7J (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781434703: Received PUBLISH from esp32-senzor-001 (d0, q0, r0, m0, 'senzor/scd40', ... (12 bytes))
+1781434703: Sending PUBLISH to Telegraf-Consumer-SVQ7J (d0, q0, r0, m0, 'senzor/scd40', ... (12 bytes))
+1781434726: Client esp32-senzor-001 [172.18.0.1:54298] disconnected: exceeded timeout.
+1781434748: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781434748: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781434813: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781434813: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781434878: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781434878: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781434943: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781434943: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781434993: New connection from 172.18.0.1:49460 on port 1883.
+1781434993: New client connected from 172.18.0.1:49460 as esp32-senzor-001 (p4, c1, k15).
+1781434993: No will message specified.
+1781434993: Sending CONNACK to esp32-senzor-001 (0, 0)
+1781434993: Received PUBLISH from esp32-senzor-001 (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781434993: Sending PUBLISH to Telegraf-Consumer-SVQ7J (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781435003: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781435003: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781435015: Client esp32-senzor-001 [172.18.0.1:49460] disconnected: exceeded timeout.
+1781435021: New connection from 172.18.0.1:53654 on port 1883.
+1781435021: New client connected from 172.18.0.1:53654 as esp32-senzor-001 (p4, c1, k15).
+1781435021: No will message specified.
+1781435021: Sending CONNACK to esp32-senzor-001 (0, 0)
+1781435021: Received PUBLISH from esp32-senzor-001 (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781435021: Sending PUBLISH to Telegraf-Consumer-SVQ7J (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781435043: New connection from 172.18.0.1:46432 on port 1883.
+1781435043: Client esp32-senzor-001 [172.18.0.1:53654] disconnected: session taken over.
+1781435043: New client connected from 172.18.0.1:46432 as esp32-senzor-001 (p4, c1, k15).
+1781435043: No will message specified.
+1781435043: Sending CONNACK to esp32-senzor-001 (0, 0)
+1781435043: Received PUBLISH from esp32-senzor-001 (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781435043: Sending PUBLISH to Telegraf-Consumer-SVQ7J (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781435065: Client esp32-senzor-001 [172.18.0.1:46432] disconnected: exceeded timeout.
+1781435068: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781435068: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781435128: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781435128: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781435193: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781435193: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781435253: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781435253: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781435276: New connection from 172.18.0.1:60850 on port 1883.
+1781435276: New client connected from 172.18.0.1:60850 as esp32-senzor-001 (p4, c1, k15).
+1781435276: No will message specified.
+1781435276: Sending CONNACK to esp32-senzor-001 (0, 0)
+1781435277: Received PUBLISH from esp32-senzor-001 (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781435277: Sending PUBLISH to Telegraf-Consumer-SVQ7J (d0, q0, r0, m0, 'senzor/sht41', ... (38 bytes))
+1781435299: Client esp32-senzor-001 [172.18.0.1:60850] disconnected: exceeded timeout.
+1781435318: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781435318: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781435383: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781435383: Sending PINGRESP to Telegraf-Consumer-SVQ7J
+1781435448: Received PINGREQ from Telegraf-Consumer-SVQ7J
+1781435448: Sending PINGRESP to Telegraf-Consumer-SVQ7J
